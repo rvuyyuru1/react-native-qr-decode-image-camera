@@ -48,7 +48,7 @@ export default class QRScanner extends PureComponent {
         <Text style={styles.notAuthorizedText}>Camera not authorized</Text>
       </View>
     ),
-    vibrate: true,
+    vibrate: false,
   };
 
   render() {
